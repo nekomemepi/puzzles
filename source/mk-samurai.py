@@ -1,5 +1,7 @@
 """
-Script to make Samurai Sudoku
+Script to make Samurai Sudoku.
+
+Needs (a lot) more work.
 """
 
 from more_itertools import set_partitions
@@ -243,7 +245,7 @@ for m in range(21 * 21):
     p = p + c
 print(p)
 
-# Constraints
+# Initial constraints to be included later
 """
 000 •  •  •  •  •  •  •  •  •           •  •  •  •  •  •  •  •  •
 021 •  •  •  •  •  •  •  •  •           •  •  •  •  •  •  •  •  •
